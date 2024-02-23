@@ -6,10 +6,9 @@ import Help from "../assets/help.png"
 import Track from "../assets/track.png"
 import Flag from "../assets/flag.png"
 import Menu from "../assets/menu.png"
-import DropDown from  "../assets/down-arrow.png"
 import Search from "../assets/search.png"
 import Cart from "../assets/cart.png"
-import Fav from "../assets/heart.png"
+import logo from "../assets/Pure Threads.png"
 
 const navBar = () => {
   return (
@@ -27,12 +26,12 @@ const navBar = () => {
         </div>
      </div>
      <div className='navbar2'>
-        <img src={Menu} alt="menu" />
-        <img src="" alt="logo" />
+        <img src={Menu} alt="menu"/>
+        <img src={logo} alt="logo" id='logo' />
         <div id='directs'>
-            <p>Categories <img src={DropDown} alt="drop down" /></p>
-            <p>Deals <img src={DropDown} alt="drop down" /></p>
-            <p>What's New <img src={DropDown} alt="drop down" /></p>
+            <p>Categories <select name="" id=""></select></p>
+            <p>Deals <select name="" id=""></select></p>
+            <p>What's New <select name="" id=""></select></p>
         </div>
        <div className="search">
         <div id='searchbar'>
@@ -44,7 +43,6 @@ const navBar = () => {
        </div>
         <a id='sign-in'>Sign in</a>
         <img src={Cart} id='cart' alt="cart" />
-        <img src={Fav} id='fav' alt="fav" />
      </div>
     </>
   )

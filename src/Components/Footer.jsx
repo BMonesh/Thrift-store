@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Styles/footer.css"
+import logo from "../assets/Pure Threads.png"
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
       <div className='looking-for-something'>
         <h1>Looking for something else?</h1>
         <div id='categ'>
-            <p> Shirt </p>|<p> Mens </p>|<p> Womens </p>|<p> Kurthas </p>|<p> Shirts </p>|<p> T-Shirts </p>
+            <p>Shirt </p>|<p> Mens </p>|<p> Womens </p>|<p> Kurthas </p>|<p> Shirts </p>|<p> T-Shirts </p>
         </div>
       </div>
       <div className='touch'>
@@ -19,13 +20,15 @@ const Footer = () => {
             <h1>Let's keep in touch</h1>
             <p>Get recommendation, tips, updates, promotion and more.</p>
             <div id='e-address'>
-                <input type="mail" name="" id="" />
+                <input type="mail" placeholder='Enter your E-mail Address' name="" id="" />
                 <button>Subscribe</button>
             </div>
         </div>
+        </div>
+    
         <div className="footer">
             <div id='ad'>
-                <img src="" alt="logo" />
+                <img src={logo} alt="logo" />
                 <h3>Best for shipping</h3>
             </div>
             <div id='right-divs'>
@@ -51,7 +54,6 @@ const Footer = () => {
                     <p>Return & Exchange </p>
                 </div>
             </div>
-        </div>
       </div>
     </div>
   )

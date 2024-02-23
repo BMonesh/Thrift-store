@@ -8,6 +8,10 @@
   height: 40px;
 }
 
+#logo{
+  height: 100px;
+  width: auto;
+}
 #left-element {
   display: flex;
   margin-left: 20px;

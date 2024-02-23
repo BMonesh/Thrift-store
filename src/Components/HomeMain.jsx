@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import '../Styles/HomeMain.css'
-import slider1 from "../assets/slider1.jpg"
+import slider1 from "../assets/slider1.png"
+import slider2 from "../assets/slider2.png"
+import slider3 from "../assets/slider3.png"
 import shirt from "../assets/Ellipse 3.png"
 import deals from "../assets/deals.png"
 import women from "../assets/Women.png"
@@ -17,8 +19,8 @@ const HomeMain = () => {
 
     const slides = [
       { id: 1, src: slider1, alt: 'Slide 1' },
-      { id: 2, src: "sfdg", alt: 'Slide 2' },
-      { id: 3, src: "safd", alt: 'Slide 3' },
+      { id: 2, src: slider2, alt: 'Slide 2' },
+      { id: 3, src: slider3, alt: 'Slide 3' },
     ];
   
     const handlePrev = () => {
